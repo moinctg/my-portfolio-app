@@ -11,6 +11,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  /* padding: px;
+  margin: 10px; */
 }
 
 a {
@@ -112,9 +114,9 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-#main {
+/* #main {
   margin-left: 300px;
-}
+} */
 
 @media (max-width: 1199px) {
   #header {
@@ -198,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/moin-bg.jpg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -256,6 +258,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
+  margin-left: 300px;
   padding: 60px 0;
   overflow: hidden;
 }
@@ -324,6 +327,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  margin-left: 300px;
 }
 .facts .count-box {
   padding: 30px;
@@ -368,6 +372,7 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
+
   height: 60px;
   display: block;
   background: none;
