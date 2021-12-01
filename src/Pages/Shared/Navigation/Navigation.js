@@ -15,11 +15,11 @@ const Navigation = () => {
         <img src="assets/img/moin.jpg" alt="" className="img-fluid rounded-circle"/>
         <h1 className="text-light"><Link to="/home">Moinuddin Kamal</Link></h1>
         <div className="social-links mt-3 text-center">
-          <a href="#" className="twitter"><i className="bx bxl-twitter"></i></a>
-          <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-          <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-          <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
-          <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+          <a href="https://twitter.com/moinuddin_kamal" className="twitter"><i className="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/Engmoin" className="facebook"><i className="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/cpimoinuddin65/" className="instagram"><i className="bx bxl-instagram"></i></a>
+          <a href="https://myaccount.google.com/profile?pli=1" className="google-plus"><i className="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/md-moinuddin-kamal-84087310a/" className="linkedin"><i className="bx bxl-linkedin"></i></a>
         </div>
       </div>
 
