@@ -1,15 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useEffect,Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import Typical from 'react-typical'
 
 const Content = () => {
 
-  useEffect( ()=>{
-   AOS.init({ duration: 2000 });
-  }
-    ,[])
+ 
+    
+
     return (
         <div className="p-4">
             <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
@@ -20,11 +19,30 @@ const Content = () => {
      
     </div>
     <div class="hero-container" data-aos="slide-left">
-      <p>I am Web Designer,Full Stack Develper,Frontend Developer,React Developer</p>
+    <p>
+    <Typical
+    //
+    loop={Infinity}
+    steps={[
+      'Full Stack Developer',
+       1000, 
+       'MERN Stack Developer',
+        1000,
+       'React Developer',
+        1000,
+       'Frontend Developer',
+        1000,
+      ]}
+    // wrapper="p"
+  />
+    </p>
+      
     </div>
   </section>
+  <button className="btn-secodndary">Download Now</button>
         </div>
     );
+    
 };
 
 export default Content;

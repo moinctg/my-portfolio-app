@@ -15,9 +15,9 @@ const Portfolio = () => {
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Full Stack</li>
+              <li data-filter=".filter-card">Landing Page</li>
+              <li data-filter=".filter-web">Frontend</li>
             </ul>
           </div>
         </div>

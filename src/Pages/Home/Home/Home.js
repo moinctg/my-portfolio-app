@@ -6,7 +6,8 @@ import Contact from '../../Home/Contact/Contact';
 import Exprience from '../Exprience/Exprience';
 import Facts from '../Facts/Facts';
 import Skills from '../Skills/Skill';
-import Service from '../Service/Service';
+import Review from '../../Review/Review';
+// import Service from '../Service/Service';
 
 const Home = () => {
     return (
@@ -16,8 +17,9 @@ const Home = () => {
            <Exprience></Exprience>
            <Facts></Facts>
            <Skills></Skills>
-          <Service></Service>
+          {/* <Service></Service> */}
            <Portfolio></Portfolio>
+           <Review></Review>
            <Contact></Contact>
 
         </div>

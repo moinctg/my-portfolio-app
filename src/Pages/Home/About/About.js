@@ -8,7 +8,7 @@ const About = () => {
 
         <div className="section-title">
           <h2>About</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>I have 7 years more  of experience in software ,  garments , Corporate, and  the IT industry as an IT Professional. I worked specializing in software and IT management for mid-sized and large clients. I have extensive experience overseeing the Design,development, implementation, and management of information technology systems that improve accessibility and resolve networking issues. This experience has helped me develop a range of relevant skills. Also Experienced Junior Developer with a demonstrated history of working in the computer software industry. Skilled in Python, Django, Flask, React, node.js , Responsive Web Design, Asp.net, Cisco, Mikrotik, and Server Configuration. I am Looking for Full Stack Development from the ground up.I have exprience fronted and backend site in web development. I am also a hard worker and team player. always ready to chalenging opportunity to  new technology that will enable me to use my skills and abilities to achieve a challenging goal.  </p>
         </div>
 
         <div className="row">
@@ -18,8 +18,7 @@ const About = () => {
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Web Designer &amp; Web Developer.</h3>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              I am moinuddin. I am looking for new opportunity  as Full Stack develper.I am able to build web presence from the ground up-form the concept ,design,layout and  using all fronted and backend technology like,Html,Css,Javascript,React,Bootstrap and Epxress .js, node.js ,Mongo
             </p>
             <div className="row">
               <div className="col-lg-6">
@@ -39,10 +38,7 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
-            </p>
+            
           </div>
         </div>
 

@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+  Link
+} from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -7,11 +10,11 @@ const Footer = () => {
        <footer id="footer">
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>iPortfolio</span></strong>
+        &copy; Copyright <strong><span>Md Moinuddin kamal</span></strong>
       </div>
       <div class="credits">
         
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <Link to="/home">Moinuddin Kamal</Link>
       </div>
     </div>
   </footer>
