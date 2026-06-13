@@ -17,17 +17,18 @@ const robotoMono = Roboto_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Ahmed - Senior IT Administrator | Portfolio",
+  title: "Md. Moinuddin Kamal - Senior IT Administrator | Portfolio",
   description:
-    "Senior IT Administrator with 13+ years of experience in enterprise infrastructure, cloud platforms, and security operations.",
+    "Senior IT Administrator and Junior Full Stack Developer with 12+ years of experience in network management, system administration, and web development.",
   keywords: [
     "IT Administrator",
-    "Cloud Architect",
-    "Azure",
-    "AWS",
-    "VMware",
-    "Security",
-    "Infrastructure",
+    "Full Stack Developer",
+    "MikroTik",
+    "Cisco",
+    "Django",
+    "Next.js",
+    "Network Infrastructure",
+    "Chittagong",
   ],
 }
 

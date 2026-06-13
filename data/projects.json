@@ -1,58 +1,81 @@
 [
   {
     "id": 1,
-    "title": "Enterprise M365 Migration",
-    "category": "Cloud",
-    "problem": "Legacy on-premises Exchange server with 5,000+ mailboxes reaching end of life, causing frequent outages and high maintenance costs.",
-    "solution": "Migrated entire organization to Microsoft 365 with Exchange Online, Entra ID synchronization, and modern authentication.",
+    "title": "Pronayon Web Apps - Full-Stack Project Management Portal",
+    "category": "Full Stack Web Development",
+    "problem": "Pronayon needed a centralized web platform to manage projects, services, and clients efficiently. Manual processes led to delays and lack of transparency.",
+    "solution": "Built a full-stack admin dashboard with CRUD operations, JWT authentication via Next-Auth, role-based access control, and dynamic category filtering with responsive design.",
     "results": [
-      { "metric": "Administration Effort", "before": "40 hrs/week", "after": "10 hrs/week", "change": "-75%" },
-      { "metric": "Mailbox Size Limit", "before": "10 GB", "after": "100 GB", "change": "+900%" },
-      { "metric": "Uptime", "before": "99.5%", "after": "99.99%", "change": "+0.49%" }
+      { "metric": "Project Management Efficiency", "before": "Manual tracking", "after": "Automated dashboard", "change": "+60%" },
+      { "metric": "Client Response Time", "before": "48 hours", "after": "Real-time", "change": "-90%" },
+      { "metric": "User Access Control", "before": "None", "after": "Role-based (Admin/Client)", "change": "N/A" }
     ],
-    "technologies": ["Azure", "M365", "Entra ID", "Intune"],
-    "impact": "30% reduced administration effort, zero data loss during migration."
+    "technologies": ["Next.js", "Next-Auth", "Tailwind CSS", "Vercel", "CI/CD"],
+    "impact": "Centralized project management with real-time updates, role-based access, and automated workflows.",
+    "link": "https://pronayonbd.vercel.app/",
+    "github": "https://github.com/moinctg/pronayon-web-apps.git"
   },
   {
     "id": 2,
-    "title": "Multi-Site VMware Cluster Deployment",
-    "category": "Virtualization",
-    "problem": "Single-site virtualization environment with no DR capability, risking business continuity.",
-    "solution": "Architected and deployed a multi-site VMware vSphere cluster with vSAN storage and Site Recovery Manager.",
+    "title": "IT Asset & Inventory Management System",
+    "category": "Full Stack Development",
+    "problem": "Manual inventory tracking caused frequent stockouts, procurement delays, and lack of visibility into IT asset lifecycle.",
+    "solution": "Developed a full-stack IT asset management system using Django DRF backend with Next.js frontend, featuring automated inventory tracking, procurement workflows, and 20+ analytics reports with Chart.js.",
     "results": [
-      { "metric": "VM Capacity", "before": "50 VMs", "after": "250 VMs", "change": "+400%" },
-      { "metric": "RTO", "before": "48 hours", "after": "2 hours", "change": "-96%" },
-      { "metric": "RPO", "before": "24 hours", "after": "15 minutes", "change": "-99%" }
+      { "metric": "Stockouts", "before": "Frequent", "after": "30% reduction", "change": "-30%" },
+      { "metric": "Procurement Approval Time", "before": "5 days", "after": "3 days", "change": "-40%" },
+      { "metric": "API Response Time", "before": "250ms", "after": "100ms", "change": "-60%" },
+      { "metric": "Test Coverage", "before": "None", "after": "85%", "change": "N/A" }
     ],
-    "technologies": ["VMware", "vSAN", "vSphere", "PowerShell"],
-    "impact": "Business continuity ensured with 2-hour RTO and 15-minute RPO."
+    "technologies": ["Django DRF", "Next.js", "Chart.js", "Docker", "GitHub Actions", "CI/CD"],
+    "impact": "30% reduction in stockouts, 40% faster procurement, and comprehensive analytics dashboard.",
+    "github": "https://github.com/moinctg"
   },
   {
     "id": 3,
-    "title": "Network Security Modernization",
-    "category": "Security",
-    "problem": "Outdated firewall infrastructure with no intrusion prevention, leaving network vulnerable to advanced threats.",
-    "solution": "Deployed Fortigate firewall clusters with IPS, SSL inspection, SD-WAN, and centralized FortiManager orchestration.",
+    "title": "Stock Price Prediction with Machine Learning",
+    "category": "AI & Machine Learning",
+    "problem": "Manual stock market analysis for the Dhaka Stock Exchange was time-consuming, inaccurate, and inaccessible to average traders.",
+    "solution": "Developed LSTM and XGBoost models achieving 8.2% MAPE accuracy, automated EDA pipelines with 30+ visualizations, FastAPI backend with <500ms prediction latency, and Next.js dashboard with Chart.js.",
     "results": [
-      { "metric": "Security Incidents", "before": "50/month", "after": "2/month", "change": "-96%" },
-      { "metric": "Network Throughput", "before": "1 Gbps", "after": "10 Gbps", "change": "+900%" },
-      { "metric": "Threat Detection", "before": "None", "after": "Real-time", "change": "N/A" }
+      { "metric": "Prediction Accuracy (MAPE)", "before": "Manual analysis", "after": "8.2%", "change": "N/A" },
+      { "metric": "Prediction Latency", "before": "N/A", "after": "<500ms", "change": "N/A" },
+      { "metric": "Manual Analysis Time", "before": "10 hrs/week", "after": "3.5 hrs/week", "change": "-65%" },
+      { "metric": "Forecast Horizon", "before": "None", "after": "15-day trends", "change": "N/A" }
     ],
-    "technologies": ["Fortinet", "Fortigate", "SD-WAN", "Cisco"],
-    "impact": "60% reduction in security incidents, 10x network throughput improvement."
+    "technologies": ["Python", "TensorFlow", "XGBoost", "FastAPI", "Next.js", "Chart.js", "Scikit-learn"],
+    "impact": "Enabled traders to forecast 15-day trends with AI accuracy, reducing manual analysis time by 65%.",
+    "link": "https://stockinsightai.vercel.app/",
+    "github": "https://github.com/moinctg/stockprediction-fastapi-backend.git"
   },
   {
     "id": 4,
-    "title": "AI-Powered Infrastructure Monitoring",
-    "category": "Automation",
-    "problem": "Reactive monitoring with no predictive capabilities, causing frequent unplanned downtime.",
-    "solution": "Implemented AI-driven monitoring solution with predictive analytics, automated remediation, and intelligent alerting.",
+    "title": "E-Commerce Platform with Admin Dashboard",
+    "category": "MERN Stack",
+    "problem": "Watch store needed an online presence with order management, payment processing, and admin controls.",
+    "solution": "Built a full MERN stack e-commerce platform with JWT authentication, admin CRUD portal, payment integration, and responsive mobile-optimized UI.",
     "results": [
-      { "metric": "Unplanned Downtime", "before": "12 hrs/month", "after": "1 hr/month", "change": "-92%" },
-      { "metric": "Alert Volume", "before": "500/week", "after": "50/week", "change": "-90%" },
-      { "metric": "MTTR", "before": "4 hours", "after": "30 minutes", "change": "-87%" }
+      { "metric": "Online Orders", "before": "None", "after": "Automated processing", "change": "N/A" },
+      { "metric": "Admin Workflow", "before": "Manual", "after": "Digital approval", "change": "+50%" },
+      { "metric": "Mobile Users", "before": "Not supported", "after": "Mobile-optimized", "change": "N/A" }
     ],
-    "technologies": ["Azure AI", "PowerShell", "Python", "ELK Stack"],
-    "impact": "92% reduction in unplanned downtime, proactive issue resolution."
+    "technologies": ["React", "Node.js", "Express", "MongoDB", "Firebase", "JWT"],
+    "impact": "Complete e-commerce solution with order tracking, admin portal, and payment processing.",
+    "github": "https://github.com/moinctg/niche-website-client-side.git"
+  },
+  {
+    "id": 5,
+    "title": "Django Blog Platform",
+    "category": "Web Development",
+    "problem": "Needed a personal blog platform with user authentication and content management.",
+    "solution": "Developed a full-featured blog platform with Django, SQLite, JWT authentication, rich-text editing, CRUD operations, and optimized queries reducing load times by 40%.",
+    "results": [
+      { "metric": "Page Load Time", "before": "3.5s", "after": "2.1s", "change": "-40%" },
+      { "metric": "Test Coverage", "before": "None", "after": "100% core auth flows", "change": "N/A" },
+      { "metric": "User Engagement", "before": "N/A", "after": "Auth + rich-text editing", "change": "N/A" }
+    ],
+    "technologies": ["Django", "SQLite", "JavaScript", "JWT", "GitHub"],
+    "impact": "Full-featured blog platform with 100% test coverage for core authentication flows.",
+    "github": "https://github.com/moinctg/first-Blog-Site-Project-Created.git"
   }
 ]

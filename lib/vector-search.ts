@@ -2,7 +2,6 @@ type Document = {
   id: string
   content: string
   metadata: Record<string, string>
-  embedding?: number[]
 }
 
 const documents: Document[] = []
@@ -14,11 +13,11 @@ export function addDocument(content: string, metadata: Record<string, string> = 
 }
 
 export function loadResumeData() {
-  const { resume } = require("@/data/resume.json")
+  const resumeData = require("@/data/resume.json")
 
-  addDocument(resume.bio, { type: "bio" })
+  addDocument(resumeData.bio, { type: "bio" })
 
-  for (const exp of resume.experience) {
+  for (const exp of resumeData.experience) {
     addDocument(`${exp.role} at ${exp.company} (${exp.period}): ${exp.description}`, {
       type: "experience",
       role: exp.role,
@@ -29,8 +28,8 @@ export function loadResumeData() {
     }
   }
 
-  for (const cert of resume.certifications) {
-    addDocument(`${cert.name} by ${cert.issuer} (${cert.year})`, {
+  for (const cert of resumeData.certifications) {
+    addDocument(`${cert.name} by ${cert.issuer}`, {
       type: "certification",
       issuer: cert.issuer,
     })

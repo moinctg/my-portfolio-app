@@ -101,7 +101,7 @@ export function InterviewMode() {
               <div className="text-6xl mb-6">🎤</div>
               <h3 className="text-2xl font-bold mb-3">Ready for an Interview?</h3>
               <p className="text-muted-foreground mb-6 text-sm">
-                I'll act as a technical recruiter and ask you infrastructure & security questions.
+                I&apos;ll act as a technical recruiter and ask you infrastructure &amp; security questions.
                 Your answers will be evaluated with AI-powered feedback.
               </p>
               <Button size="xl" onClick={startInterview}>

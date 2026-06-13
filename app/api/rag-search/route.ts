@@ -28,7 +28,7 @@ function searchContent(query: string): string {
       cert.name.toLowerCase().includes(q) ||
       cert.issuer.toLowerCase().includes(q)
     ) {
-      results.push(`Certification: ${cert.name} - ${cert.issuer} (${cert.year})`)
+      results.push(`Certification: ${cert.name} - ${cert.issuer}`)
     }
   }
 
@@ -78,7 +78,7 @@ export async function POST(req: Request) {
     if (!context) {
       return NextResponse.json({
         response:
-          "I couldn't find specific information matching your query. Try asking about his experience, certifications, projects, or specific technologies like Azure, VMware, or security.",
+          "I couldn't find specific information matching your query. Try asking about his experience, certifications, projects, or specific technologies like MikroTik, Cisco, Django, or machine learning.",
       })
     }
 
@@ -87,7 +87,7 @@ export async function POST(req: Request) {
     })
   } catch {
     return NextResponse.json({
-      response: "I can help you explore Ahmed's professional background. What would you like to know?",
+      response: "I can help you explore Md. Moinuddin's professional background. What would you like to know?",
     })
   }
 }

@@ -15,10 +15,10 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <p className="text-lg font-bold">
-              <span className="text-primary">A</span>hmed
+              <span className="text-primary">MK</span> M.Kamal
             </p>
             <p className="text-sm text-muted-foreground">
-              Senior IT Administrator | Cloud & Security Specialist
+              Senior IT Administrator | Full Stack Developer
             </p>
           </div>
 

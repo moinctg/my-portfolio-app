@@ -8,65 +8,71 @@ import { Badge } from "@/components/ui/badge"
 const experienceData = [
   {
     id: 1,
-    year: "2021 - Present",
-    role: "Senior IT Administrator",
-    company: "Enterprise Corp",
-    description: "Leading infrastructure operations, cloud strategy, and security operations across the enterprise.",
+    year: "04/2019 - Present",
+    role: "IT Administrator",
+    company: "Pronayon/PDS, Chittagong",
+    description: "Architected and maintained multi-vendor IT ecosystem. Managed network infrastructure, Windows Server, and Odoo ERP systems. Led full-stack web development projects.",
     achievements: [
-      "Reduced infrastructure costs by 30% through cloud optimization",
-      "Led M365 migration for 5,000+ users",
-      "Achieved 99.98% uptime across all systems",
+      "Achieved 99.5% uptime across multi-vendor IT ecosystem",
+      "Engineered MikroTik-based LAN/MAN/WAN solutions for 250+ users",
+      "Deployed Cisco infrastructure reducing troubleshooting time by 40%",
+      "Customized Odoo ERP modules enhancing workflow efficiency by 35%",
+      "Led full lifecycle web application development using Django/React",
     ],
     side: "left" as const,
   },
   {
     id: 2,
-    year: "2018 - 2021",
-    role: "Infrastructure Engineer",
-    company: "TechGlobal Inc",
-    description: "Designed and managed VMware clusters, storage systems, and network infrastructure.",
+    year: "03/2018 - 03/2019",
+    role: "System Admin",
+    company: "Orange Communication, Chittagong",
+    description: "Managed fiber network design, MikroTik infrastructure, and enterprise IT operations.",
     achievements: [
-      "Architected multi-site VMware cluster with 120+ VMs",
-      "Implemented automated backup and DR solutions",
-      "Led network upgrade to SD-WAN architecture",
+      "Planned OLT systems achieving 40% bandwidth improvement",
+      "Deployed 50+ MikroTik routers reducing downtime by 35%",
+      "Managed 200+ endpoints cutting security incidents by 70%",
+      "Led 5-member teams to achieve 99% SLA compliance",
     ],
     side: "right" as const,
   },
   {
     id: 3,
-    year: "2015 - 2018",
-    role: "Network Administrator",
-    company: "NetSolutions Ltd",
-    description: "Managed enterprise networks, firewalls, and security infrastructure.",
+    year: "05/2017 - 01/2018",
+    role: "IT Officer",
+    company: "Mohara Asian Apparels Ltd, Chittagong",
+    description: "Provided IT support and automated business processes for manufacturing operations.",
     achievements: [
-      "Deployed Fortigate firewall clusters with IPS/SSL inspection",
-      "Implemented BGP/OSPF routing for multi-site connectivity",
-      "Reduced security incidents by 60%",
+      "Automated attendance tracking reducing errors by 30%",
+      "Delivered IT support for 150+ users with 95% SLA resolution",
+      "Deployed CCTV surveillance with remote monitoring",
     ],
     side: "left" as const,
   },
   {
     id: 4,
-    year: "2012 - 2015",
-    role: "System Administrator",
-    company: "DataCenter Pro",
-    description: "Managed Windows Server, Linux, and virtualization platforms.",
+    year: "02/2016 - 04/2017",
+    role: "IT Executive",
+    company: "PAN ARAB INTERNATIONAL, Chittagong",
+    description: "Managed cloud-based ERP platforms and enterprise IT infrastructure.",
     achievements: [
-      "Managed 250+ Windows and Linux servers",
-      "Deployed VMware vSphere clusters",
-      "Implemented centralized patch management",
+      "Managed cloud ERP for 100+ users ensuring 99.9% uptime",
+      "Achieved 90% first-call resolution rate for IT issues",
+      "Reduced ticket resolution time by 35% through automation",
+      "Cut PC deployment setup time by 50% with standardized protocols",
     ],
     side: "right" as const,
   },
   {
     id: 5,
-    year: "2010 - 2012",
-    role: "Help Desk Engineer",
-    company: "IT Solutions",
-    description: "Provided technical support and troubleshooting for enterprise clients.",
+    year: "04/2014 - 11/2015",
+    role: "IT (Service & Support)",
+    company: "Alchemy Software, Chittagong",
+    description: "Managed Oracle Database systems and provided enterprise IT support.",
     achievements: [
-      "Resolved 2,000+ tickets with 98% satisfaction rate",
-      "Created knowledge base reducing repeat tickets by 40%",
+      "Optimized Oracle DB (8i/9i/10g) for 50+ concurrent users",
+      "95% first-call resolution rate across 120+ endpoints",
+      "Reduced backup times by 40% through streamlined processes",
+      "Cut replacement costs by 25% with efficient hardware diagnostics",
     ],
     side: "left" as const,
   },
@@ -74,10 +80,8 @@ const experienceData = [
 
 function TimelineCard({
   item,
-  index,
 }: {
   item: (typeof experienceData)[number]
-  index: number
 }) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
@@ -97,7 +101,6 @@ function TimelineCard({
         item.side === "left" ? "flex-row" : "flex-row-reverse"
       }`}
     >
-      {/* Card */}
       <div className={`flex-1 ${item.side === "left" ? "text-right" : "text-left"}`}>
         <div className="bg-card/50 backdrop-blur-sm border border-border rounded-xl p-6 hover:border-primary/50 transition-colors">
           <Badge variant="outline" className="mb-2">
@@ -118,14 +121,12 @@ function TimelineCard({
         </div>
       </div>
 
-      {/* Center Icon */}
       <div className="relative shrink-0">
         <div className="w-12 h-12 rounded-full bg-primary/20 border-2 border-primary flex items-center justify-center">
           <Briefcase className="w-5 h-5 text-primary" />
         </div>
       </div>
 
-      {/* Spacer */}
       <div className="flex-1 hidden md:block" />
     </motion.div>
   )
@@ -153,12 +154,11 @@ export function TimelineSection() {
             Career <span className="text-primary">Timeline</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            13+ years of progressive experience in IT infrastructure, cloud, and security
+            12+ years of progressive experience in IT infrastructure, networking, and full-stack development
           </p>
         </motion.div>
 
         <div ref={containerRef} className="relative">
-          {/* Timeline Line */}
           <div className="absolute left-1/2 top-0 bottom-0 w-px bg-border -translate-x-1/2">
             <motion.div
               className="w-full bg-gradient-to-b from-primary via-primary to-primary"
@@ -166,8 +166,8 @@ export function TimelineSection() {
             />
           </div>
 
-          {experienceData.map((item, index) => (
-            <TimelineCard key={item.id} item={item} index={index} />
+          {experienceData.map((item) => (
+            <TimelineCard key={item.id} item={item} />
           ))}
         </div>
       </div>

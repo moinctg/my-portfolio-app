@@ -1,58 +1,58 @@
 {
   "categories": [
     {
-      "name": "Cloud Platforms",
-      "icon": "Cloud",
-      "skills": ["Microsoft Azure", "Amazon Web Services", "M365", "Entra ID", "Intune", "AWS"]
-    },
-    {
-      "name": "Virtualization",
-      "icon": "Server",
-      "skills": ["VMware vSphere", "VMware vSAN", "Hyper-V", "Nutanix", "KVM", "Docker", "Kubernetes"]
-    },
-    {
-      "name": "Networking",
+      "name": "Network Infrastructure",
       "icon": "Network",
-      "skills": ["Cisco", "Fortigate", "VPN", "LAN/WAN", "BGP", "OSPF", "SD-WAN", "Wireless"]
+      "skills": ["MikroTik (Winbox)", "Cisco Routers/Switches", "LAN/MAN/WAN Design", "Fiber Optics (OLT)", "VPN Solutions", "Firewall Policies", "SD-WAN", "Wireless Networking"]
     },
     {
-      "name": "Security",
+      "name": "System Administration",
+      "icon": "Server",
+      "skills": ["Windows Server 2016/2019", "Active Directory", "DNS/DHCP", "Group Policy", "Linux Administration", "Oracle Database", "Backup & Recovery", "Patch Management", "Virtualization (VMware/Hyper-V)"]
+    },
+    {
+      "name": "Security Solutions",
       "icon": "Shield",
-      "skills": ["Fortinet", "Cisco Security", "Azure Security", "Active Directory Security", "SIEM", "DLP", "IAM"]
+      "skills": ["Firewall Implementation", "VPN Configuration", "Security Incident Response", "Access Control", "CCTV Surveillance", "Endpoint Security", "Network Segmentation", "Security Auditing"]
     },
     {
-      "name": "Operating Systems",
-      "icon": "Monitor",
-      "skills": ["Windows Server", "Linux (Ubuntu, RHEL)", "Active Directory", "Group Policy", "DNS", "DHCP"]
-    },
-    {
-      "name": "Automation & AI",
-      "icon": "Cpu",
-      "skills": ["PowerShell", "Azure AI", "Python", "Terraform", "Ansible", "CI/CD"]
-    },
-    {
-      "name": "Storage & Backup",
+      "name": "ERP & Business Systems",
       "icon": "Database",
-      "skills": ["SAN/NAS", "vSAN", "Azure Backup", "Veeam", "Disaster Recovery"]
+      "skills": ["Odoo ERP (Customization)", "ERP Workflow Automation", "HR/Payroll Systems", "Inventory Management", "Procurement Workflows", "Analytics & Reporting"]
     },
     {
-      "name": "Monitoring",
+      "name": "Full-Stack Development",
+      "icon": "Monitor",
+      "skills": ["Django/DRF", "Next.js (App Router)", "React.js", "Node.js/Express", "MongoDB", "REST API Design", "JWT Authentication", "CI/CD Pipelines"]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "icon": "Cpu",
+      "skills": ["Python (TensorFlow)", "XGBoost", "Scikit-learn", "LSTM Models", "FastAPI", "Data Analysis (Pandas)", "Predictive Modeling", "ML Pipeline Deployment"]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "icon": "Cloud",
+      "skills": ["Docker", "GitHub Actions", "Vercel Deployment", "Firebase Hosting", "CI/CD Automation", "Version Control (Git)", "Cloud ERP Platforms"]
+    },
+    {
+      "name": "Technical Leadership",
       "icon": "Activity",
-      "skills": ["Azure Monitor", "ELK Stack", "SolarWinds", "PRTG", "SCOM"]
+      "skills": ["Team Leadership (5+ members)", "SLA Compliance (99%)", "IT Strategy Planning", "Vendor Management", "Documentation & Training", "Project Lifecycle Management", "Critical Thinking & Problem Solving"]
     }
   ],
   "techStack": [
-    { "name": "Azure", "icon": "Azure", "color": "#0078D4" },
-    { "name": "AWS", "icon": "AWS", "color": "#FF9900" },
-    { "name": "VMware", "icon": "VMware", "color": "#607078" },
-    { "name": "Cisco", "icon": "Cisco", "color": "#1BA0D7" },
-    { "name": "Linux", "icon": "Linux", "color": "#FCC624" },
-    { "name": "Windows Server", "icon": "Windows", "color": "#0078D6" },
-    { "name": "Docker", "icon": "Docker", "color": "#2496ED" },
-    { "name": "Kubernetes", "icon": "Kubernetes", "color": "#326CE5" },
-    { "name": "Fortinet", "icon": "Shield", "color": "#EE3124" },
-    { "name": "PowerShell", "icon": "Terminal", "color": "#5391FE" },
-    { "name": "Python", "icon": "Python", "color": "#3776AB" },
-    { "name": "Terraform", "icon": "Infrastructure", "color": "#7B42BC" }
+    { "name": "MikroTik", "icon": "Network", "color": "#00A3E0" },
+    { "name": "Cisco", "icon": "Network", "color": "#1BA0D7" },
+    { "name": "Windows Server", "icon": "Monitor", "color": "#0078D6" },
+    { "name": "Linux", "icon": "Terminal", "color": "#FCC624" },
+    { "name": "Django", "icon": "Code", "color": "#092E20" },
+    { "name": "Next.js", "icon": "Globe", "color": "#000000" },
+    { "name": "React", "icon": "Code", "color": "#61DAFB" },
+    { "name": "Node.js", "icon": "Server", "color": "#339933" },
+    { "name": "Odoo", "icon": "Database", "color": "#714B67" },
+    { "name": "Docker", "icon": "Container", "color": "#2496ED" },
+    { "name": "Python", "icon": "Terminal", "color": "#3776AB" },
+    { "name": "TensorFlow", "icon": "Cpu", "color": "#FF6F00" }
   ]
 }

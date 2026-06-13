@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog"
-import { ArrowRight, TrendingUp, TrendingDown, ExternalLink } from "lucide-react"
+import { ArrowRight, TrendingUp, TrendingDown, ExternalLink, Code2, Globe } from "lucide-react"
 import projects from "@/data/projects.json"
 
 export function ProjectShowcase() {
@@ -25,7 +25,7 @@ export function ProjectShowcase() {
             Project <span className="text-primary">Case Studies</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Enterprise infrastructure projects with measurable business impact
+            Full-stack and infrastructure projects with measurable business impact
           </p>
         </motion.div>
 
@@ -59,6 +59,34 @@ export function ProjectShowcase() {
                         {tech}
                       </Badge>
                     ))}
+                  </div>
+
+                  {/* GitHub + Live quick links */}
+                  <div className="flex gap-2 mt-4">
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-primary/20 border border-border transition-colors text-muted-foreground hover:text-foreground"
+                      >
+                        <Code2 className="w-3.5 h-3.5" />
+                        Code
+                      </a>
+                    )}
+                    {project.link && (
+                      <a
+                        href={project.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        className="inline-flex items-center gap-1.5 text-xs px-3 py-1.5 rounded-full bg-secondary hover:bg-primary/20 border border-border transition-colors text-muted-foreground hover:text-foreground"
+                      >
+                        <Globe className="w-3.5 h-3.5" />
+                        Live
+                      </a>
+                    )}
                   </div>
                 </CardContent>
               </Card>
@@ -131,6 +159,26 @@ export function ProjectShowcase() {
                       {tech}
                     </Badge>
                   ))}
+                </div>
+
+                {/* GitHub + Live Site toggle */}
+                <div className="flex gap-3 pt-2">
+                  {selectedProject.github && (
+                    <Button variant="outline" size="sm" asChild>
+                      <a href={selectedProject.github} target="_blank" rel="noopener noreferrer">
+                        <Code2 className="w-4 h-4 mr-2" />
+                        View Source Code
+                      </a>
+                    </Button>
+                  )}
+                  {selectedProject.link && (
+                    <Button size="sm" asChild>
+                      <a href={selectedProject.link} target="_blank" rel="noopener noreferrer">
+                        <Globe className="w-4 h-4 mr-2" />
+                        Visit Live Site
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </div>
             </>

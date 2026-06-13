@@ -1,100 +1,122 @@
 {
-  "name": "Ahmed",
-  "title": "Senior IT Administrator",
-  "experience": "13+ Years",
-  "tagline": "Bridging Infrastructure Excellence with AI-Driven Automation",
-  "bio": "Senior IT Administrator with 13+ years of experience managing enterprise infrastructure, cloud platforms, and security operations. Passionate about AI-enabled infrastructure automation.",
+  "name": "Md. Moinuddin Kamal",
+  "title": "Senior IT Administrator & Junior Full Stack Developer",
+  "experience": "12+ Years",
+  "tagline": "Bridging Infrastructure Excellence with AI-Driven Automation & Web Development",
+  "bio": "Results-driven IT Administrator and Junior Full Stack Developer with 12+ years of hands-on experience in network management, system administration, and web development. Skilled in Windows Server, Cisco/MikroTik networks, and Odoo ERP, while proficient in Django, React, and Node.js for full-stack solutions. Strong problem-solver with a track record of optimizing IT operations and developing efficient web applications. Passionate about integrating DevOps practices to enhance system reliability and automation.",
   "contact": {
-    "email": "ahmed@example.com",
-    "phone": "+1-555-0123",
-    "location": "Dubai, UAE",
-    "linkedin": "https://linkedin.com/in/ahmed",
-    "github": "https://github.com/ahmed"
+    "email": "cpimoinuddin@gmail.com",
+    "phone": "01824-682965",
+    "location": "Chittagong, Bangladesh",
+    "linkedin": "https://linkedin.com/in/moinctg",
+    "github": "https://github.com/moinctg"
   },
   "experience": [
     {
       "id": 1,
-      "role": "Senior IT Administrator",
-      "company": "Enterprise Corp",
-      "period": "2021 - Present",
-      "description": "Leading infrastructure operations, cloud strategy, and security operations across the enterprise.",
+      "role": "IT Administrator",
+      "company": "Pronayon/PDS",
+      "location": "Chittagong",
+      "period": "04/2019 - Present",
+      "description": "Architected and maintained a multi-vendor IT ecosystem including printers, scanners, and access controllers.",
       "achievements": [
-        "Reduced infrastructure costs by 30% through cloud optimization",
-        "Led M365 migration for 5,000+ users",
-        "Achieved 99.98% uptime across all systems",
-        "Implemented AI-driven monitoring and automation"
+        "Achieved 99.5% uptime across multi-vendor IT ecosystem",
+        "Engineered MikroTik-based LAN/MAN/WAN solutions supporting 250+ users with Winbox management",
+        "Deployed Cisco network infrastructure reducing troubleshooting time by 40%",
+        "Implemented firewall policies and VPN solutions decreasing security incidents by 60%",
+        "Spearheaded Windows Server 2016 deployment with Active Directory, DNS, DHCP serving 300+ endpoints",
+        "Customized Odoo ERP modules enhancing HR/finance workflow efficiency by 35%",
+        "Automated payroll/attendance systems reducing processing errors by 45%",
+        "Led full lifecycle web application development using Django/React"
       ]
     },
     {
       "id": 2,
-      "role": "Infrastructure Engineer",
-      "company": "TechGlobal Inc",
-      "period": "2018 - 2021",
-      "description": "Designed and managed VMware clusters, storage systems, and network infrastructure.",
+      "role": "System Admin",
+      "company": "Orange Communication",
+      "location": "Chittagong",
+      "period": "03/2018 - 03/2019",
+      "description": "Managed fiber network design and enterprise IT infrastructure.",
       "achievements": [
-        "Architected multi-site VMware cluster with 120+ VMs",
-        "Implemented automated backup and DR solutions",
-        "Led network upgrade to SD-WAN architecture"
+        "Planned and configured OLT systems for 40% bandwidth improvement",
+        "Deployed 50+ MikroTik routers with Winbox reducing downtime by 35%",
+        "Managed 200+ endpoints cutting security incidents by 70%",
+        "Led 5-member teams to achieve 99% SLA compliance",
+        "Upgraded systems to boost efficiency by 50%"
       ]
     },
     {
       "id": 3,
-      "role": "Network Administrator",
-      "company": "NetSolutions Ltd",
-      "period": "2015 - 2018",
-      "description": "Managed enterprise networks, firewalls, and security infrastructure.",
+      "role": "IT Officer",
+      "company": "Mohara Asian Apparels Ltd",
+      "location": "Chittagong",
+      "period": "05/2017 - 01/2018",
+      "description": "Provided IT support and automated business processes.",
       "achievements": [
-        "Designed and deployed Fortigate firewall clusters",
-        "Implemented BGP/OSPF routing for multi-site connectivity",
-        "Reduced security incidents by 60%"
+        "Automated attendance tracking and payroll processing reducing errors by 30%",
+        "Delivered IT support for 150+ users resolving 95% of tickets within SLA",
+        "Deployed CCTV surveillance systems with remote monitoring capabilities"
       ]
     },
     {
       "id": 4,
-      "role": "System Administrator",
-      "company": "DataCenter Pro",
-      "period": "2012 - 2015",
-      "description": "Managed Windows Server, Linux, and virtualization platforms.",
+      "role": "IT Executive",
+      "company": "PAN ARAB INTERNATIONAL",
+      "location": "Chittagong",
+      "period": "02/2016 - 04/2017",
+      "description": "Managed cloud-based ERP platforms and IT infrastructure.",
       "achievements": [
-        "Managed 250+ Windows and Linux servers",
-        "Deployed VMware vSphere clusters",
-        "Implemented centralized patch management"
+        "Managed cloud-based ERP platforms (Enjazit, Alkawder) for 100+ users ensuring 99.9% uptime",
+        "Resolved IT/PC hardware/software issues with 90% first-call resolution rate",
+        "Automated routine troubleshooting processes reducing ticket resolution time by 35%",
+        "Implemented standardized PC deployment protocols cutting setup time by 50%"
       ]
     },
     {
       "id": 5,
-      "role": "Help Desk Engineer",
-      "company": "IT Solutions",
-      "period": "2010 - 2012",
-      "description": "Provided technical support and troubleshooting for enterprise clients.",
+      "role": "IT (Service & Support)",
+      "company": "Alchemy Software",
+      "location": "Chittagong",
+      "period": "04/2014 - 11/2015",
+      "description": "Managed Oracle Database systems and provided enterprise IT support.",
       "achievements": [
-        "Resolved 2,000+ tickets with 98% satisfaction rate",
-        "Created knowledge base reducing repeat tickets by 40%"
+        "Managed Oracle Database systems (8i/9i/10g) optimizing performance for 50+ concurrent users",
+        "Resolved critical IT issues with 95% first-call resolution rate across 120+ endpoints",
+        "Streamlined database maintenance processes reducing backup times by 40%",
+        "Diagnosed hardware failures cutting replacement costs by 25%",
+        "Developed user training manuals decreasing repeat support tickets by 30%"
       ]
     }
   ],
   "education": [
     {
-      "degree": "Bachelor of Computer Science",
-      "institution": "University of Technology",
-      "year": "2010"
+      "degree": "B.Sc. in Computer Science & Engineering",
+      "institution": "Southern University Bangladesh",
+      "year": "2024",
+      "cgpa": "3.01"
+    },
+    {
+      "degree": "Computer Science & Technology",
+      "institution": "Chittagong Polytechnic Institute",
+      "year": "2014",
+      "cgpa": "3.02"
     }
   ],
   "certifications": [
-    { "name": "Microsoft Azure Solutions Architect", "issuer": "Microsoft", "year": "2023", "icon": "Azure" },
-    { "name": "AWS Solutions Architect", "issuer": "Amazon", "year": "2022", "icon": "AWS" },
-    { "name": "VMware VCP-DCV", "issuer": "VMware", "year": "2021", "icon": "VMware" },
-    { "name": "CCNP Security", "issuer": "Cisco", "year": "2020", "icon": "Cisco" },
-    { "name": "ITIL 4 Managing Professional", "issuer": "AXELOS", "year": "2019", "icon": "ITIL" },
-    { "name": "Fortinet NSE 4", "issuer": "Fortinet", "year": "2020", "icon": "Fortinet" }
+    { "name": "Training on Web Application (ASP.Net & MVC)", "issuer": "BASIS Institute of Technology & Management (BITM)", "year": "", "icon": "Code" },
+    { "name": "MTCNA - MikroTik Certified Network Associate", "issuer": "MikroTik", "year": "", "icon": "Network" },
+    { "name": "Web Design & Development (MERN Stack)", "issuer": "Programming Hero", "year": "", "icon": "Globe" }
   ],
   "stats": {
-    "serversManaged": 250,
-    "usersSupported": 5000,
-    "cloudWorkloads": 120,
-    "virtualMachines": 250,
+    "serversManaged": 300,
+    "usersSupported": 1500,
+    "cloudWorkloads": 100,
+    "virtualMachines": 50,
     "securityIncidents": 98,
-    "uptime": 99.98,
-    "networksManaged": 50
+    "uptime": 99.5,
+    "networksManaged": 50,
+    "ticketsResolved": 2000,
+    "erpModules": 5,
+    "webAppsBuilt": 6
   }
 }

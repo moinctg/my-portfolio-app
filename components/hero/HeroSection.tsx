@@ -10,6 +10,9 @@ import { ParticleBackground } from "@/components/animations/ParticleBackground"
 
 const typewriterWords = [
   "Senior IT Administrator",
+  "Full Stack Developer",
+  "Cloud & Network Architect",
+  "AI/ML Engineer",
   "Cloud Architect",
   "Security Specialist",
   "AI Infrastructure Engineer",
@@ -22,10 +25,10 @@ const quickPrompts = [
 ]
 
 const floatingCards = [
-  { title: "250+", subtitle: "Servers Managed", icon: "🖥", color: "from-blue-500/20 to-cyan-500/20", x: 15, y: 20 },
-  { title: "99.98%", subtitle: "Uptime", icon: "📊", color: "from-green-500/20 to-emerald-500/20", x: 75, y: 15 },
-  { title: "13+", subtitle: "Years Experience", icon: "⚡", color: "from-purple-500/20 to-pink-500/20", x: 80, y: 65 },
-  { title: "5,000+", subtitle: "Users Supported", icon: "👥", color: "from-orange-500/20 to-yellow-500/20", x: 10, y: 70 },
+    { title: "300+", subtitle: "Endpoints Managed", icon: "🖥", color: "from-blue-500/20 to-cyan-500/20", x: 15, y: 20 },
+    { title: "99.5%", subtitle: "System Uptime", icon: "📊", color: "from-green-500/20 to-emerald-500/20", x: 75, y: 15 },
+    { title: "12+", subtitle: "Years Experience", icon: "⚡", color: "from-purple-500/20 to-pink-500/20", x: 80, y: 65 },
+    { title: "2,000+", subtitle: "Tickets Resolved", icon: "🎫", color: "from-orange-500/20 to-yellow-500/20", x: 10, y: 70 },
 ]
 
 export function HeroSection() {
@@ -132,7 +135,7 @@ export function HeroSection() {
 
           <h1 className="text-5xl md:text-7xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              Hello, I'm Ahmed
+              Hello, I&apos;m Md. Moinuddin Kamal
             </span>
           </h1>
 
@@ -148,8 +151,7 @@ export function HeroSection() {
           </div>
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Senior IT Administrator with 13+ years of experience in enterprise infrastructure,
-            cloud platforms, and security operations. Bridging infrastructure excellence with AI-driven automation.
+            Senior IT Administrator &amp;  Full Stack Developer with 12+ years of experience in network management, system administration, and web development. Bridging infrastructure excellence with full-stack development and AI-driven automation.
           </p>
 
           {/* Social Links */}

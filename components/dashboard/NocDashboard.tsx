@@ -2,36 +2,36 @@
 
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
-import { Server, Cloud, Shield, Users, Network, Activity, Monitor, HardDrive } from "lucide-react"
+import { Server, Cloud, Shield, Users, Network, Activity, Monitor, HardDrive, Ticket, Code } from "lucide-react"
 
 const widgets = [
   {
-    label: "Servers Managed",
-    value: "250+",
+    label: "Endpoints Managed",
+    value: "300+",
     icon: Server,
     color: "from-blue-500 to-blue-600",
-    detail: "Physical & Virtual",
+    detail: "Windows & Linux",
   },
   {
     label: "Users Supported",
-    value: "5,000+",
+    value: "1,500+",
     icon: Users,
     color: "from-green-500 to-emerald-600",
     detail: "Enterprise Scale",
   },
   {
     label: "Cloud Workloads",
-    value: "120+",
+    value: "100+",
     icon: Cloud,
     color: "from-cyan-500 to-blue-600",
-    detail: "Azure & AWS",
+    detail: "Cloud ERP & Web Apps",
   },
   {
-    label: "Virtual Machines",
-    value: "250+",
-    icon: Monitor,
+    label: "Tickets Resolved",
+    value: "2,000+",
+    icon: Ticket,
     color: "from-purple-500 to-violet-600",
-    detail: "VMware & Hyper-V",
+    detail: "95% Satisfaction",
   },
   {
     label: "Security Incidents",
@@ -42,28 +42,28 @@ const widgets = [
   },
   {
     label: "Uptime",
-    value: "99.98%",
+    value: "99.5%",
     icon: Activity,
     color: "from-emerald-500 to-teal-600",
-    detail: "Last 12 Months",
+    detail: "Infrastructure",
   },
   {
     label: "Networks",
     value: "50+",
     icon: Network,
     color: "from-orange-500 to-amber-600",
-    detail: "Sites Managed",
+    detail: "Routers Deployed",
   },
   {
-    label: "Storage",
-    value: "1.2PB",
-    icon: HardDrive,
+    label: "Web Apps Built",
+    value: "6+",
+    icon: Code,
     color: "from-indigo-500 to-purple-600",
-    detail: "Managed Capacity",
+    detail: "Full-Stack Projects",
   },
 ]
 
-function AnimatedCounter({ value, suffix = "" }: { value: string; suffix?: string }) {
+function AnimatedCounter({ value }: { value: string }) {
   return (
     <motion.span
       className="text-3xl md:text-4xl font-bold"
@@ -99,13 +99,13 @@ export function NocDashboard() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 text-sm text-green-400 mb-4">
             <Activity className="w-3.5 h-3.5" />
-            NOC Command Center - Live Status
+            Infrastructure Command Center - Live Status
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Infrastructure <span className="text-primary">Command Center</span>
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Real-time operational metrics from across the enterprise infrastructure landscape
+            Operational metrics from across the enterprise infrastructure and development landscape
           </p>
         </motion.div>
 
@@ -120,7 +120,6 @@ export function NocDashboard() {
               transition={{ delay: index * 0.05 }}
             >
               <div className="bg-card/50 backdrop-blur-sm border border-border rounded-xl p-6 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/5">
-                {/* Glow effect */}
                 <div className={`absolute inset-0 rounded-xl bg-gradient-to-br ${widget.color} opacity-0 group-hover:opacity-5 transition-opacity duration-300`} />
 
                 <div className="relative z-10">
