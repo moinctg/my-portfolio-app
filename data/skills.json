@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "Cloud Platforms",
+      "icon": "Cloud",
+      "skills": ["Microsoft Azure", "Amazon Web Services", "M365", "Entra ID", "Intune", "AWS"]
+    },
+    {
+      "name": "Virtualization",
+      "icon": "Server",
+      "skills": ["VMware vSphere", "VMware vSAN", "Hyper-V", "Nutanix", "KVM", "Docker", "Kubernetes"]
+    },
+    {
+      "name": "Networking",
+      "icon": "Network",
+      "skills": ["Cisco", "Fortigate", "VPN", "LAN/WAN", "BGP", "OSPF", "SD-WAN", "Wireless"]
+    },
+    {
+      "name": "Security",
+      "icon": "Shield",
+      "skills": ["Fortinet", "Cisco Security", "Azure Security", "Active Directory Security", "SIEM", "DLP", "IAM"]
+    },
+    {
+      "name": "Operating Systems",
+      "icon": "Monitor",
+      "skills": ["Windows Server", "Linux (Ubuntu, RHEL)", "Active Directory", "Group Policy", "DNS", "DHCP"]
+    },
+    {
+      "name": "Automation & AI",
+      "icon": "Cpu",
+      "skills": ["PowerShell", "Azure AI", "Python", "Terraform", "Ansible", "CI/CD"]
+    },
+    {
+      "name": "Storage & Backup",
+      "icon": "Database",
+      "skills": ["SAN/NAS", "vSAN", "Azure Backup", "Veeam", "Disaster Recovery"]
+    },
+    {
+      "name": "Monitoring",
+      "icon": "Activity",
+      "skills": ["Azure Monitor", "ELK Stack", "SolarWinds", "PRTG", "SCOM"]
+    }
+  ],
+  "techStack": [
+    { "name": "Azure", "icon": "Azure", "color": "#0078D4" },
+    { "name": "AWS", "icon": "AWS", "color": "#FF9900" },
+    { "name": "VMware", "icon": "VMware", "color": "#607078" },
+    { "name": "Cisco", "icon": "Cisco", "color": "#1BA0D7" },
+    { "name": "Linux", "icon": "Linux", "color": "#FCC624" },
+    { "name": "Windows Server", "icon": "Windows", "color": "#0078D6" },
+    { "name": "Docker", "icon": "Docker", "color": "#2496ED" },
+    { "name": "Kubernetes", "icon": "Kubernetes", "color": "#326CE5" },
+    { "name": "Fortinet", "icon": "Shield", "color": "#EE3124" },
+    { "name": "PowerShell", "icon": "Terminal", "color": "#5391FE" },
+    { "name": "Python", "icon": "Python", "color": "#3776AB" },
+    { "name": "Terraform", "icon": "Infrastructure", "color": "#7B42BC" }
+  ]
+}

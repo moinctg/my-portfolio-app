@@ -1,0 +1,100 @@
+{
+  "name": "Ahmed",
+  "title": "Senior IT Administrator",
+  "experience": "13+ Years",
+  "tagline": "Bridging Infrastructure Excellence with AI-Driven Automation",
+  "bio": "Senior IT Administrator with 13+ years of experience managing enterprise infrastructure, cloud platforms, and security operations. Passionate about AI-enabled infrastructure automation.",
+  "contact": {
+    "email": "ahmed@example.com",
+    "phone": "+1-555-0123",
+    "location": "Dubai, UAE",
+    "linkedin": "https://linkedin.com/in/ahmed",
+    "github": "https://github.com/ahmed"
+  },
+  "experience": [
+    {
+      "id": 1,
+      "role": "Senior IT Administrator",
+      "company": "Enterprise Corp",
+      "period": "2021 - Present",
+      "description": "Leading infrastructure operations, cloud strategy, and security operations across the enterprise.",
+      "achievements": [
+        "Reduced infrastructure costs by 30% through cloud optimization",
+        "Led M365 migration for 5,000+ users",
+        "Achieved 99.98% uptime across all systems",
+        "Implemented AI-driven monitoring and automation"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Infrastructure Engineer",
+      "company": "TechGlobal Inc",
+      "period": "2018 - 2021",
+      "description": "Designed and managed VMware clusters, storage systems, and network infrastructure.",
+      "achievements": [
+        "Architected multi-site VMware cluster with 120+ VMs",
+        "Implemented automated backup and DR solutions",
+        "Led network upgrade to SD-WAN architecture"
+      ]
+    },
+    {
+      "id": 3,
+      "role": "Network Administrator",
+      "company": "NetSolutions Ltd",
+      "period": "2015 - 2018",
+      "description": "Managed enterprise networks, firewalls, and security infrastructure.",
+      "achievements": [
+        "Designed and deployed Fortigate firewall clusters",
+        "Implemented BGP/OSPF routing for multi-site connectivity",
+        "Reduced security incidents by 60%"
+      ]
+    },
+    {
+      "id": 4,
+      "role": "System Administrator",
+      "company": "DataCenter Pro",
+      "period": "2012 - 2015",
+      "description": "Managed Windows Server, Linux, and virtualization platforms.",
+      "achievements": [
+        "Managed 250+ Windows and Linux servers",
+        "Deployed VMware vSphere clusters",
+        "Implemented centralized patch management"
+      ]
+    },
+    {
+      "id": 5,
+      "role": "Help Desk Engineer",
+      "company": "IT Solutions",
+      "period": "2010 - 2012",
+      "description": "Provided technical support and troubleshooting for enterprise clients.",
+      "achievements": [
+        "Resolved 2,000+ tickets with 98% satisfaction rate",
+        "Created knowledge base reducing repeat tickets by 40%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "University of Technology",
+      "year": "2010"
+    }
+  ],
+  "certifications": [
+    { "name": "Microsoft Azure Solutions Architect", "issuer": "Microsoft", "year": "2023", "icon": "Azure" },
+    { "name": "AWS Solutions Architect", "issuer": "Amazon", "year": "2022", "icon": "AWS" },
+    { "name": "VMware VCP-DCV", "issuer": "VMware", "year": "2021", "icon": "VMware" },
+    { "name": "CCNP Security", "issuer": "Cisco", "year": "2020", "icon": "Cisco" },
+    { "name": "ITIL 4 Managing Professional", "issuer": "AXELOS", "year": "2019", "icon": "ITIL" },
+    { "name": "Fortinet NSE 4", "issuer": "Fortinet", "year": "2020", "icon": "Fortinet" }
+  ],
+  "stats": {
+    "serversManaged": 250,
+    "usersSupported": 5000,
+    "cloudWorkloads": 120,
+    "virtualMachines": 250,
+    "securityIncidents": 98,
+    "uptime": 99.98,
+    "networksManaged": 50
+  }
+}

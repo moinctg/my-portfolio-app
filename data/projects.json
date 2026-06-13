@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Enterprise M365 Migration",
+    "category": "Cloud",
+    "problem": "Legacy on-premises Exchange server with 5,000+ mailboxes reaching end of life, causing frequent outages and high maintenance costs.",
+    "solution": "Migrated entire organization to Microsoft 365 with Exchange Online, Entra ID synchronization, and modern authentication.",
+    "results": [
+      { "metric": "Administration Effort", "before": "40 hrs/week", "after": "10 hrs/week", "change": "-75%" },
+      { "metric": "Mailbox Size Limit", "before": "10 GB", "after": "100 GB", "change": "+900%" },
+      { "metric": "Uptime", "before": "99.5%", "after": "99.99%", "change": "+0.49%" }
+    ],
+    "technologies": ["Azure", "M365", "Entra ID", "Intune"],
+    "impact": "30% reduced administration effort, zero data loss during migration."
+  },
+  {
+    "id": 2,
+    "title": "Multi-Site VMware Cluster Deployment",
+    "category": "Virtualization",
+    "problem": "Single-site virtualization environment with no DR capability, risking business continuity.",
+    "solution": "Architected and deployed a multi-site VMware vSphere cluster with vSAN storage and Site Recovery Manager.",
+    "results": [
+      { "metric": "VM Capacity", "before": "50 VMs", "after": "250 VMs", "change": "+400%" },
+      { "metric": "RTO", "before": "48 hours", "after": "2 hours", "change": "-96%" },
+      { "metric": "RPO", "before": "24 hours", "after": "15 minutes", "change": "-99%" }
+    ],
+    "technologies": ["VMware", "vSAN", "vSphere", "PowerShell"],
+    "impact": "Business continuity ensured with 2-hour RTO and 15-minute RPO."
+  },
+  {
+    "id": 3,
+    "title": "Network Security Modernization",
+    "category": "Security",
+    "problem": "Outdated firewall infrastructure with no intrusion prevention, leaving network vulnerable to advanced threats.",
+    "solution": "Deployed Fortigate firewall clusters with IPS, SSL inspection, SD-WAN, and centralized FortiManager orchestration.",
+    "results": [
+      { "metric": "Security Incidents", "before": "50/month", "after": "2/month", "change": "-96%" },
+      { "metric": "Network Throughput", "before": "1 Gbps", "after": "10 Gbps", "change": "+900%" },
+      { "metric": "Threat Detection", "before": "None", "after": "Real-time", "change": "N/A" }
+    ],
+    "technologies": ["Fortinet", "Fortigate", "SD-WAN", "Cisco"],
+    "impact": "60% reduction in security incidents, 10x network throughput improvement."
+  },
+  {
+    "id": 4,
+    "title": "AI-Powered Infrastructure Monitoring",
+    "category": "Automation",
+    "problem": "Reactive monitoring with no predictive capabilities, causing frequent unplanned downtime.",
+    "solution": "Implemented AI-driven monitoring solution with predictive analytics, automated remediation, and intelligent alerting.",
+    "results": [
+      { "metric": "Unplanned Downtime", "before": "12 hrs/month", "after": "1 hr/month", "change": "-92%" },
+      { "metric": "Alert Volume", "before": "500/week", "after": "50/week", "change": "-90%" },
+      { "metric": "MTTR", "before": "4 hours", "after": "30 minutes", "change": "-87%" }
+    ],
+    "technologies": ["Azure AI", "PowerShell", "Python", "ELK Stack"],
+    "impact": "92% reduction in unplanned downtime, proactive issue resolution."
+  }
+]
